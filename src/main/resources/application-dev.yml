@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    url: jdbc:mysql://localhost:3306/aaa?unicode=true&characterEncoding=utf-8
+    url: jdbc:oracle:thin:@localhost:1521:ORDERMANAGER
+    username: system
+    password: root
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.hy.entity

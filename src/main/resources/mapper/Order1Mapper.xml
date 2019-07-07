@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.hy.mapper.Order1Mapper">
+    <resultMap id="BaseResultMap" type="com.hy.entity.Order1">
+        <id column="OID" property="oid" jdbcType="INTEGER"></id>
+    </resultMap>
+    <insert id="addOrder1">
+        INSERT INTO ORDER1(OID) values (888)
+    </insert>
+</mapper>
